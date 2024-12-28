@@ -1,0 +1,9 @@
+include COPYING
+include COPYING.LESSER
+include README.md
+include dramatiq/py.typed
+include setup.cfg
+include setup.py
+
+recursive-include bin *
+recursive-include dramatiq/brokers/redis *.lua
